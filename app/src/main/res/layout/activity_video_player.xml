@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <!-- 🔥 VIDEO PLAYER -->
+    <androidx.media3.ui.PlayerView
+        android:id="@+id/playerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:resize_mode="fit" />
+
+    <!-- 🔥 GESTURE OVERLAY -->
+    <LinearLayout
+        android:id="@+id/gestureOverlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@android:color/transparent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/gestureIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⏩"
+            android:textSize="42sp"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/gestureText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10s"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="4dp" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="8dp"
+    android:orientation="vertical">
+
+    <!-- MONTH TITLE (Jan 2026 / Dec 2025) -->
+    <TextView
+        android:id="@+id/monthTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jan 2026"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#B0B0B0"
+        android:letterSpacing="0.05"/>
+
+    <!-- subtle divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="6dp"
+        android:background="#22FFFFFF"/>
+
+</LinearLayout>

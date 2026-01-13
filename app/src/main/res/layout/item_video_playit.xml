@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:background="#050505">
+
+    <!-- THUMB -->
+    <FrameLayout
+        android:layout_width="120dp"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/videoThumb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:background="@drawable/bg_thumb"/>
+
+        <TextView
+            android:id="@+id/videoDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="4dp"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="1dp"
+            android:text="00:00"
+            android:textSize="10sp"
+            android:textColor="#FFFFFF"
+            android:background="#80000000"/>
+    </FrameLayout>
+
+    <!-- INFO -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/videoName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/videoMeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="#9b9b9b"
+            android:textSize="11sp"/>
+
+        <!-- SOURCE CHIP -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_chip"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="2dp">
+
+            <ImageView
+                android:id="@+id/sourceIcon"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:tint="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/videoSource"
+                android:layout_marginStart="4dp"
+                android:textColor="#E0E0E0"
+                android:textSize="10sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- MENU -->
+    <TextView
+        android:id="@+id/btnMenu"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="⋮"
+        android:textSize="18sp"
+        android:textColor="#b9b9b9"/>
+</LinearLayout>

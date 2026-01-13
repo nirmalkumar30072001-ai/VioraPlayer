@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application theme -->
+    <style name="Theme.VioraPlayer" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Status bar transparent -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+
+        <!-- Let system handel insets -->
+        <item name="android:fitsSystemWindows">true</item>
+
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@android:color/black</item>
+
+        <!-- Disable action bar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Material colors (optional, use your colors) -->
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSurface">@android:color/black</item>
+
+    </style>
+
+</resources>

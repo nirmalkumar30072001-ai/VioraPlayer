@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 🔹 PLAYit GREEN PRIMARY -->
+    <color name="green_primary">#32E676</color>
+
+    <!-- 🔹 BACKGROUND -->
+    <color name="bg_dark">#0F1218</color>
+    <color name="bg_card">#1A1D24</color>
+
+    <!-- 🔹 TEXT COLORS -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#9AA0A6</color>
+
+    <!-- 🔹 ICON COLORS -->
+    <color name="icon_active">#32E676</color>
+    <color name="icon_inactive">#9AA0A6</color>
+
+    <!-- 🔹 DIVIDER / LINE -->
+    <color name="divider">#2A2E36</color>
+
+    <!-- 🔹 TRANSPARENT -->
+    <color name="transparent">#00000000</color>
+
+</resources>
