@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">VioraPlayer</string>
+    <string name="folder_not_found">Folder not found?</string>
+    <string name="manage_scan_list">Manage your scan list</string>
+    <string name="desc_empty_folder">Empty folder illustration</string>
+    <string name="folder">Folder</string>
+    <string name="video_count_zero">0 videos</string>
+    <string name="folder_icon">Folder icon</string>
 </resources>

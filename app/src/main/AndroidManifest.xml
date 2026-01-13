@@ -22,13 +22,13 @@
         android:theme="@style/Theme.VioraPlayer"
         tools:targetApi="33">
 
-        <!-- 🎬 Video Player Screen -->
+        <!-- 🎬 VIDEO PLAYER -->
         <activity
             android:name=".VideoPlayerActivity"
             android:exported="false"
             android:configChanges="orientation|screenSize" />
 
-        <!-- 🏠 Main Screen -->
+        <!-- 🏠 MAIN ACTIVITY -->
         <activity
             android:name=".MainActivity"
             android:exported="true">

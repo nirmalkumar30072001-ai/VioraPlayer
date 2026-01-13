@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Folder outline -->
+    <path
+        android:fillColor="@color/text_secondary"
+        android:fillAlpha="0.35"
+        android:pathData="
+            M10,4
+            L12,6
+            H20
+            C21.1,6 22,6.9 22,8
+            V18
+            C22,19.1 21.1,20 20,20
+            H4
+            C2.9,20 2,19.1 2,18
+            V6
+            C2,4.9 2.9,4 4,4
+            Z"/>
+
+    <!-- Sad dot left -->
+    <path
+        android:fillColor="@color/text_secondary"
+        android:fillAlpha="0.4"
+        android:pathData="M9,11a1,1 0 1,1 -2,0a1,1 0 1,1 2,0"/>
+
+    <!-- Sad dot right -->
+    <path
+        android:fillColor="@color/text_secondary"
+        android:fillAlpha="0.4"
+        android:pathData="M17,11a1,1 0 1,1 -2,0a1,1 0 1,1 2,0"/>
+</vector>
